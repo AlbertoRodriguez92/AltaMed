@@ -39,17 +39,6 @@ h3{
   background-image: url(../images/background.png);
   background-position: right center;
   background-repeat: no-repeat;
-  
-}
-.image{
-	float: right;
-	width: 100%;
-	height: 100%;
-}
-img{
-	float: left;
-  width:  702px;
-  height:  522px;
 }
 .hero_component_title{
 	padding: 0;
@@ -67,6 +56,28 @@ img{
 	margin-left: 225px; 
 	font-size: 22px;
 }
+/*----------------------------------------------------------*/
+.info_component{
+  width: 100%;
+  height: 522px;
+  font-family: Helvetica;
+}
+.info_component_title{
+  color: #5d5096;
+}
+.body_info{
+  float: right;
+  font-size: 12px;
+  width: 400px;
+  height: 520px;
+}
+
+img{
+	float: left;
+  width:  602px;
+  height:  522px;
+}
+/*----------------------------------------------------------*/
 footer{
   background-color: #f8f8f8;
   color: #a5acb0;
