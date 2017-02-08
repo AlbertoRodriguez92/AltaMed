@@ -3,12 +3,12 @@
   margin: 0;
 }
 body{
-  width: 1680px;
+  /*width: 1680px;*/
   font-family: Helvetica;
 }
 @font-face{
   font-family: Helvetica;
-  src: url(/fonts/HelveticaNeue/HelveticaNeue-normal.eot);
+  src: url(/fonts/HelveticaNeue/HelveticaNeue.eot);
 }
 .header_title{
 	color: white;
