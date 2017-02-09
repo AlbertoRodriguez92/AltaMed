@@ -52,14 +52,19 @@ header{
 	width: 250px;
 	padding-top: 30px;
 }
-h1{
+.header_title h1{
   margin: 0;
 	font-weight: 200;
 	font-size: 42px;
 }
-h3{
+.header_title h3{
   margin: 0;
 	font-weight: 100;
+}
+h1{
+  margin: 0;
+	font-weight: 200;
+	font-size: 42px;
 }
 /*-----------Hero component---------------------------------*/
 
@@ -114,9 +119,7 @@ h3{
 		width: 100%;
 		height: 180px;
 	}
-  .hero_component{
-    height: 1430px;
-  }
+ 
 	.hero_component_title{
     margin-top: 10px;
     clear: left;
@@ -125,10 +128,11 @@ h3{
 	}
   .body {
     margin-left: 0;
-    margin-bottom: 0;
-    clear: right;
+    margin-bottom: 1px;
     background-color: #5d5096;
+    font-size: 22px;
 		color: white;
     width: 100%;
+    overflow: hidden;
     }
 }
