@@ -36,6 +36,7 @@ body{
   font-family: Helvetica Neue;
   padding: 0;
   margin: 0;
+  overflow-x: visible;
 }
 header{
 	background-color: #5d5096;
@@ -69,41 +70,42 @@ h1{
 /*-----------Hero component---------------------------------*/
 
 .hero_component{
-	font-family: Helvetica Neue;
+	font-family: Helvetica;
 	color: #5d5096;
 	float: left;
   width: 100%;
   height:740px;
 }
-.text{
-  display: table;
-  margin-top: 152px;
-  margin-left: 6%;
-	width: 700px;
+
+.hero_component_title{
+	padding: 0;
+	z-index: 5;
+	width: 568px;
+	margin-left: 12%; 
+	margin-top: 152px;
 }
 .hero_component_title h1{
-  font-size: 68px;
+  font-size: 57px;
 	text-align: center;
 }
 .bold{
   font-weight: bold;
 }
-.background{
-  background-image: url(../images/background.png);
-  background-position: right;
-  background-repeat: no-repeat;
-}
-.hero_component_title{
-	padding: 0;
-	z-index: 3;
-	text-align: center;
+.image{
+  float: right;
+  display: table;
+  width: 100%;
+  height: 100%;
+  
 }
 .body{
-	width: 100%;
+  z-index: 5;
+	width: 568px;
 	color: #57676f;
 	margin-top: 63px;
-	font-size: 26px;
-  line-height: 1.5;
+	margin-left: 12%; 
+	font-size: 22px;
+  display: block;
 }
 @media(max-width: 1550px) {
 	.hero_component_title{
@@ -128,19 +130,20 @@ h1{
 		width: 100%;
 		height: 180px;
 	}
-  .hero_component{
-    
-  }
   .hero_component_title{
-    margin-top: 10px;
+    align-content: center;
+    margin-top: 80px;
+    padding: 0;
     clear: left;
-		width: 496px;
+		width: 100%;
 		height: 178px;
 	}
   .body {
     display: table;
     margin-left: 0;
     margin-bottom: 1px;
+    padding-left: 45px;
+    padding-right: 60px;
     background-color: #5d5096;
     font-size: 22px;
 		color: white;
@@ -151,32 +154,4 @@ h1{
     margin-top: 63px;
     margin-bottom: 60px;
   }
-}
-/*-----------info component---------------------------------*/
-.info_component{
-  font-family: Helvetica Neue;
-  color: #5d5096;
-  display: table;
-  height: 524px;
-  width: 100%;
-}
-img{
-  float: left;
-  width: 41.67%;
-}
-.right_position{
-  display: table;
-  padding-top: 45px;
-  float: right;
-  width: 58.33%;
-}
-.info_component_title{
-  width: 100%;
-  text-align: center;
-}
-.body_info{
-  padding-top: 60px;
-  line-height: 1.7;
-  padding-left: 6.63%;
-  color: #57676f;
 }
