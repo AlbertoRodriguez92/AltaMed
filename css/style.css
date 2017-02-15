@@ -196,6 +196,8 @@ h1{
   }
   .left_position{
     float: none;
+    width: 100%;
+    height: 300px;
   }
 }
 /*------------------Services component-----------------------*/
@@ -211,9 +213,19 @@ h1{
   width: 100%;
   text-align: center;
 }
+.services_component_title h1{
+  font-family: Helvetica Neue;
+  font-weight: bold;
+}
+.call{
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 42px;
+}
 .services_text{
   font-family: Helvetica Neue;
   font-weight: bold;
+  font-size: 18px;
   margin-top: 60px;
   width: 100%;
   color: #57676f;
@@ -223,8 +235,10 @@ h1{
 }
 .services_body{
   font-family: Helvetica Neue;
+  
   color: #5d5096;
   display: table;
+  padding-top: 60px;
   width: 100%;
   color: #57676f;
 }
@@ -235,36 +249,70 @@ h1{
 .list{
   display: table;
   font-family: Helvetica Neue;
+  font-weight: 300;
   color: #5d5096;
-  font-weight: bold;
   line-height: 1.6;
   font-size: 22px;
-  width: 70%;
+  width: 100%;
   margin: 0 auto; 
   height: 210px;
+  padding-left: 15%;
   list-style-image: url(../images/bullet.png);
 }
-/*.left{
+.list li{
+  width: 400px;
+  margin: 0 20%;;
+}
+.left{
+  font-size: 28px;
   float: left;
+  margin-left: auto;
   width: 345px;
   height: 210px;
 }
 .center{
-  
+  font-size: 28px;
+  float: left;
+  margin-left: auto;
   width: 345px;
   height: 210px;
 }
 .right{
-  float: right;
+  font-size: 28px;
+  float: left;
+  margin-left: auto;
   width: 345px;
   height: 210px;
-}*/
+}
 /*--------------------------map component------------------*/
-
+.map_component{
+  width: 100%;
+}
+.map_component_title{
+  width: 100%;
+  display: table;
+  background: #f8f8f8;
+  height: 140px;
+  border-color: #dfdfdf;
+}
+.map_title{
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color: #5d5096;
+}
+.search_bar{
+  width: 100%;
+  height: 115px;
+  
+}
 /*---------------------------footer------------------------*/
 footer{
   width: 100%;
   height: 80px;
+  background: #f8f8f8;
 }
 .footer_text{
   padding-top: 32px;
