@@ -254,35 +254,25 @@ h1{
   line-height: 1.6;
   font-size: 22px;
   width: 100%;
-  margin: 0 auto; 
   height: 210px;
   padding-left: 15%;
   list-style-image: url(../images/bullet.png);
 }
-.list li{
-  width: 400px;
-  margin: 0 20%;;
-}
+
 .left{
   font-size: 28px;
   float: left;
-  margin-left: auto;
-  width: 345px;
-  height: 210px;
+  width: 33.33%;
 }
 .center{
   font-size: 28px;
   float: left;
-  margin-left: auto;
-  width: 345px;
-  height: 210px;
+  width: 33.33%;
 }
 .right{
   font-size: 28px;
   float: left;
-  margin-left: auto;
-  width: 345px;
-  height: 210px;
+  width: 33.33%;
 }
 /*--------------------------map component------------------*/
 .map_component{
