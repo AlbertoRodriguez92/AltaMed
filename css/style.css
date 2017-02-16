@@ -295,8 +295,44 @@ h1{
 }
 .search_bar{
   width: 100%;
-  height: 115px;
-  
+  height: 80px;
+  background: #5d5096;
+  text-align: center;
+  display: block;
+  padding-top: 3%;
+}
+i{
+  color: white;
+}
+input{
+  margin-left: 25px;
+  width: 25%;
+  height: 40%;
+  background: #5d5096;
+  font-family: Helvetica Neue;
+  color: white;
+  font-size: 30px;
+  border: 0;
+  box-shadow: 0;
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  background: #5d5096;
+  color: white;
+  font-family: Helvetica Neue;
+  font-size: 30px;
+}
+input:-moz-placeholder {
+  background: #5d5096;
+  color: white;
+  font-family: Helvetica Neue;
+  font-size: 30px; 
+}
+input:-ms-input-placeholder { 
+  background: #5d5096;
+  color: white;
+  font-family: Helvetica Neue;
+  font-size: 30px; 
 }
 /*---------------------------footer------------------------*/
 footer{
