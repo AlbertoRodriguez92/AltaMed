@@ -42,7 +42,6 @@ header{
 	width: 100%;
 	height: 175px;
   display: table;
-  padding-left: 100px;
 }
 /*.header_title{
   display: table;
@@ -65,6 +64,11 @@ h1{
   margin: 0;
 	font-weight: 200;
 	font-size: 42px;
+}
+hr{
+  background-color: #dfdfdf;
+  height: 2px;
+  border: none;
 }
 .logo{
   padding-top: 30px;
@@ -235,7 +239,6 @@ h1{
 }
 .services_body{
   font-family: Helvetica Neue;
-  
   color: #5d5096;
   display: table;
   padding-top: 60px;
@@ -251,12 +254,14 @@ h1{
   font-family: Helvetica Neue;
   font-weight: 300;
   color: #5d5096;
-  line-height: 1.6;
+  line-height: 2;
   font-size: 22px;
-  width: 100%;
-  height: 210px;
-  padding-left: 15%;
+  height: auto;
   list-style-image: url(../images/bullet.png);
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 15%;
+  text-align: left;
 }
 
 .left{
@@ -343,8 +348,7 @@ footer{
 .footer_text{
   padding-top: 32px;
   font-family: Helvetica Neue;
-  font-size: 20px;
+  font-size: 19px;
   color: #57676f;
   text-align: center;
-  
 }
