@@ -72,8 +72,11 @@ hr{
 }
 .logo{
   padding-top: 30px;
-  /*width="180px"; 
-  height="120px";*/
+  padding-left: 100px;
+}
+button{
+  border-radius: 0;
+  background-color: #5d5096;
 }
 /*-----------Hero component---------------------------------*/
 .hero_component{
@@ -279,6 +282,27 @@ hr{
   float: left;
   width: 33.33%;
 }
+@media(max-width: 1000px){
+  .list{
+    width: 100%;
+    text-align: left;
+}
+  .left{
+  font-size: 28px;
+  float: none;
+  width: 100%;
+}
+.center{
+  font-size: 28px;
+  float: none;
+  width: 100%;
+}
+.right{
+  font-size: 28px;
+  float: none;
+  width: 100%;
+}
+}
 /*--------------------------map component------------------*/
 .map_component{
   width: 100%;
@@ -338,6 +362,20 @@ input:-ms-input-placeholder {
   color: white;
   font-family: Helvetica Neue;
   font-size: 30px; 
+}
+.results{
+  width: 33.33%;
+  font-family: Helvetica Neue;
+  color: #5d5096;
+  float: left;
+}
+.results ul{
+  list-style: none;
+  display: inline;
+}
+.gmaps{
+  width: 66.66%;
+  float: right;
 }
 /*---------------------------footer------------------------*/
 footer{
