@@ -363,13 +363,29 @@ input:-ms-input-placeholder {
   font-family: Helvetica Neue;
   font-size: 30px; 
 }
+.content_map{
+  display: table;
+  width: 100%;
+}
 .results{
   width: 33.33%;
   font-family: Helvetica Neue;
-  color: #5d5096;
+  color: #57676f;
   float: left;
 }
-.results ul{
+.results h2{
+  padding-left: 15%;
+}
+.results p{
+  padding-left: 15%;
+  color: #57676f;
+  font-size: 20px;
+}
+.results .nav-bar{
+  text-align: center;
+  height: 50px;
+}
+.results li{
   list-style: none;
   display: inline;
 }
