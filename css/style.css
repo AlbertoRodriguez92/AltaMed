@@ -85,7 +85,7 @@ button{
 	color: #5d5096;
 	float: left;
   width: 100%;
-  height:740px;
+  height: 740px;
 }
 .text{
   display: table;
@@ -109,6 +109,9 @@ button{
 	padding: 0;
 	z-index: 3;
 	text-align: center;
+}
+.image_hero{
+  visibility: hidden;
 }
 .body{
 	width: 100%;
@@ -141,14 +144,30 @@ button{
 		height: 180px;
 	}
   .hero_component{
-    
+    width: 100%;
+    height: 100%;
+  }
+  .text{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
   }
   .hero_component_title{
     margin-top: 10px;
-    clear: left;
-		width: 496px;
-		height: 178px;
+		width: 100%;
 	}
+  .background{
+    background-image: none;
+  }
+  .image_hero{
+    visibility: visible;
+    width: 100%;
+    height: 750px;;
+    background-image: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+  }
   .body {
     display: table;
     margin-left: 0;
@@ -160,8 +179,8 @@ button{
     float: none;
     }
   .body p{
-    margin-top: 63px;
-    margin-bottom: 60px;
+    width: 100%;
+    padding-left: 2%;
   }
 }
 /*-----------info component---------------------------------*/
@@ -303,15 +322,15 @@ button{
   float: none;
   width: 100%;
   }
-.center{
-  font-size: 28px;
-  float: none;
-  width: 100%;
+  .center{
+    font-size: 28px;
+    float: none;
+    width: 100%;
   }
-.right{
-  font-size: 28px;
-  float: none;
-  width: 100%;
+  .right{
+    font-size: 28px;
+    float: none;
+    width: 100%;
   }
 }
 /*--------------------------map component------------------*/
@@ -441,6 +460,13 @@ iframe{
   float: right;
   width: 66.66%;
   height: 100%;
+}
+.nav-style{
+  background-color: #dfdfdf;
+  height: 2px;
+  border: none;
+  margin: 0;
+  width: 100%;
 }
 @media(max-width:1000px){
   .results{
