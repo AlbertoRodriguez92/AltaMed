@@ -38,8 +38,6 @@ ul,
 header{
   box-sizing: border-box;
 }
-
-
 body{
   font-family: Helvetica Neue;
   padding: 0;
@@ -51,23 +49,7 @@ header{
 	height: 158px;
   display: table;
 }
-/*.header_title{
-  display: table;
-	color: white;
-	text-align: left;
-	font-family: roboto;
-	width: 250px;
-	padding-top: 30px;
-}
-.header_title h1{
-  margin: 0;
-	font-weight: 200;
-	font-size: 42px;
-}
-.header_title h3{
-  margin: 0;
-	font-weight: 100;
-}*/
+
 h1{
   margin: 0;
 	font-weight: 200;
@@ -93,27 +75,27 @@ button{
 	color: #5d5096;
 	float: left;
   width: 100%;
-  height: 881px;
+  height: 741px;
 }
 .text{
   display: table;
-  margin-top: 152px;
-  margin-left: 6%;
-	width: 700px;
+  margin-top: 170px;
+  margin-left: 12%;
+	width: 660px;
 }
 .hero_component_title h1{
-  font-size: 68px;
+  font-size: 64px;
 	text-align: center;
 }
 .bold{
-  font-weight: bold;
+  font-weight: 900;
 }
 .background{
   background-image: url(../images/background.png);
   background-position: right top;
   background-repeat: no-repeat;
+  background-size: 95%;
   background-size: auto;
-  width: 100%;
 }
 .hero_component_title{
 	padding: 0;
@@ -124,28 +106,29 @@ button{
   visibility: hidden;
 }
 .body{
-	width: 100%;
+	width: 630px;
 	color: #57676f;
-	margin-top: 63px;
-	font-size: 26px;
+	margin-top: 50px;
+	font-size: 24px;
   line-height: 1.5;
 }
 @media(max-width: 1550px) {
-	.hero_component_title{
-    margin-left: 5%; 
-  }
-  .body{
-    margin-left: 5%; 
-    font-size: 18px;
+  .text{
+    margin-left: 5%;
+    margin-top: 100px;
   }
 }
-@media(max-width: 1390px) {
-	.hero_component_title{
-    margin-left: 2%; 
+@media(max-width: 1455px) {
+	.text{
+    margin-left: 2%;
+    margin-top: 70px;
   }
-  .body{
-    margin-left: 2%; 
-    font-size: 16px;
+}
+@media(max-width: 1405px) {
+	.text{
+    margin-left: 2%;
+    margin-top: 30px;
+    width: 500px;
   }
 }
 @media(max-width: 1350px) {
@@ -214,7 +197,7 @@ button{
 }
 .right_position{
   display: table;
-  padding-top: 45px;
+  padding: 45px 50px;
   float: right;
   width: 55%;
 }
